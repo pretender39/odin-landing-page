@@ -19,21 +19,30 @@ body{
     font-size: 24px;
 }
 
-.header-link, .secondary-text {
+.header-link {
     font-size: 18px;
     color: #e5e7eb;
-    margin: 10px;
-    margin-left: 150px;
+    margin: 0 12px;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .navbar {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 ul {
     display: flex;
     flex-direction: row;
+    gap: 24px;
+    list-style: none;
+    align-items: center;
 }
 
 .navbar-left, .navbar-right {
@@ -41,6 +50,7 @@ ul {
     width: 50%;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 
 h1{
@@ -65,9 +75,10 @@ h1{
 .main-text {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     width: 50%;
+    margin-left: 190px;
+    gap: 24px;
 }
 
 img{
@@ -150,4 +161,64 @@ h3{
     display: flex;
     justify-content: flex-end;
     width: 700px;
+}
+
+.fourth-section{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container{
+    background-color: #3882f6;
+    width: 75%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+}
+
+.left{
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h4{
+    font-size: 24px;
+    color: white;
+
+}
+
+.fourth-p{
+    color: white;
+    font-size: 18px;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.btn-fourth-div{
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 75px;
 }
